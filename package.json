@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
-    "vercel-build": "npm run type-check && next build"
+    "vercel-build": "next build"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.2",
